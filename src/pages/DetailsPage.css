@@ -1,0 +1,33 @@
+.detailsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col {
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    width: 80%;
+}
+
+.titleDetails {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.agentImg {
+    border-radius: 15px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.agentImg:hover {
+    opacity: 0.8;
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+.agentDetails {
+    font-size: 1.5rem;
+}
